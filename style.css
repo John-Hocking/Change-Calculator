@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h1 {
+  font-size: 4em;
+  width: 53%;
+  margin: 30px auto 0 auto;
+  color:white;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100vh;
+  border: black 3px solid;
+  background: #09172F;
+  color: white;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container input {
+  font-size: 20px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  flex-basis: 50px;
+  width: 500px;
+  background: #78808D;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.container input:focus {
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+#calculate {
+  width: 250px;
+  height: 50px;
+  margin: 30px auto 0 auto;
+}
+
+
+.container-output {
+  display: flex;
+  flex-direction: column;
+}
+
+#output{
+  margin-top: 25px;
+  font-size: 3em;
+  align-self: center;
+}
+
+#change {
+  margin-top: 20px;
+  font-size: 2em;
+  align-self: center;
+  list-style-type: none;
+} 
+
+#calculate {
+  background: #78808D;
+  border: none;
+  color: white;
+  font-size: 25px;;
+}
